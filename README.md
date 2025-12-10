@@ -1,1 +1,2 @@
-# Ecommerce-website
+first install node - module 
+npm init --y
