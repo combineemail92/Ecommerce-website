@@ -46,9 +46,10 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    app.res('hello world')
+    return res.send("backend is running")
 });
 app.listen(3000, () => {
     console.log("Server is running on port 3000");
 
 });
+
